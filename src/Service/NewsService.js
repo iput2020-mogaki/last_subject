@@ -7,7 +7,7 @@ export const fetchNews = async () => {
     const response = await axios.get('https://newsapi.org/v2/top-headlines', {
       params: {
         country: 'jp',
-        pageSize: 5,
+        pageSize: 1,
         apiKey: API_KEY
       }
     });
