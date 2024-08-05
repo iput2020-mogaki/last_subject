@@ -1,0 +1,19 @@
+.news-item-image {
+  width: 50%;
+  height: 300px;
+  object-fit: scale-down;
+
+}
+
+.news-item {
+  border: solid 3px;
+}
+
+.news-container{
+  color: rgb(255, 255, 255);
+}
+
+.news-item-title {
+  
+  color: white;
+}
