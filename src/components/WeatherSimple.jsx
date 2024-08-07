@@ -5,7 +5,7 @@ import getWeather from '../Service/WeatherService';
 import { areaList } from '../constants/areaList';
 import '../styles/weather.css';  // CSSファイルをインポート
 
-const Weather = () => {
+const WeatherSimple = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -72,4 +72,4 @@ const Weather = () => {
   );
 };
 
-export default Weather;
+export default WeatherSimple;

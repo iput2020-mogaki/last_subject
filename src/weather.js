@@ -3,13 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import './styles/news.css';
 import './styles/weather.css';
-import reportWebVitals from './reportWebVitals.js';
-import App from './components/App.jsx';
+import reportWebVitals from './reportWebVitals';
+// import Header from './components/Header';
+// import Footer from './components/Footer';
+// import Weather from './components/Weather';
+// import NewsList from './components/NewsList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    
+    
+    
   </React.StrictMode>
 );
 

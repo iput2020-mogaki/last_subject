@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Paper, Typography, Select, MenuItem, FormControl, InputLabel } from '@mui/material';
-import getWeather from '../Service/WeatherService';
-import { areaList } from '../constants/areaList';
-import '../styles/weather.css'; 
+import getWeather from '../../Service/WeatherService';
+import { areaList } from '../../constants/areaList';
+import '../../styles/weather.css'; 
 
 const Weather = () => {
   const [weatherData, setWeatherData] = useState(null);
