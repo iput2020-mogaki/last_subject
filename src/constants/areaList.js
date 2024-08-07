@@ -1,5 +1,5 @@
 export const areaList = [
-  { id: '017010', name: '渡島・檜山地方' },
+  { id: '017010', name: '北海道' },
   { id: '020010', name: '青森' },
   { id: '030010', name: '岩手' },
   { id: '040010', name: '宮城' },

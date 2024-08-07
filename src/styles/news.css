@@ -6,7 +6,10 @@
 }
 
 .news-item {
+  margin: 30px;
+  padding: 20px;
   border: solid 3px;
+  border-radius: 10px;
 }
 
 .news-container{
@@ -16,4 +19,12 @@
 .news-item-title {
   
   color: white;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
 }

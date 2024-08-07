@@ -2,8 +2,7 @@ import React from 'react';
 import { Container, Grid } from '@mui/material';
 import Header from './Header';
 import NewsList from './NewsList';
-// import WeatherSimple from './WeatherSimple';
-import Weather from './Weather';
+import WeatherSimple from './WeatherSimple';
 
 
 
@@ -17,7 +16,8 @@ function App() {
             <NewsList />
           </Grid>
           <Grid item xs={12} md={4}> {/* 画面の1/3 */}
-            <Weather />
+            <WeatherSimple />
+            <omikuji />
           </Grid>
         </Grid>
       </Container>
