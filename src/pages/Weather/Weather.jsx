@@ -60,7 +60,7 @@ const Weather = () => {
           ))}
         </Select>
       </FormControl>
-    <div className="weather-container">
+    <div className="weather-container-detail">
       <h2 className="weather-title">Weather Information</h2>
       <p className="weather-item"><strong>Publishing Office:</strong> {weatherData.publishingOffice}</p>
       <p className="weather-item"><strong>Report Date:</strong> {weatherData.description.publicTimeFormatted}</p>

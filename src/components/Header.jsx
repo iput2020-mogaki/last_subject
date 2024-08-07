@@ -93,27 +93,25 @@ function Header() {
           </List>
         </Drawer>
         <Box
-          component="main"
-          sx={{
-            flexGrow: 1,
-            p: 3,
-            width: { sm: `calc(100% - ${drawerWidth}px)` },
-            ml: { sm: `${drawerWidth}px` },
-            transition: (theme) =>
-              theme.transitions.create('margin', {
-                easing: theme.transitions.easing.sharp,
-                duration: theme.transitions.duration.leavingScreen,
-              }),
-            ...(open && {
-              transition: (theme) =>
-                theme.transitions.create('margin', {
-                  easing: theme.transitions.easing.easeOut,
-                  duration: theme.transitions.duration.enteringScreen,
-                }),
-              ml: `${drawerWidth}px`,
-            }),
-          }}
-        >
+  component="main"
+  sx={{
+    flexGrow: 1,
+    p: 3,
+    transition: (theme) =>
+      theme.transitions.create('margin', {
+        easing: theme.transitions.easing.sharp,
+        duration: theme.transitions.duration.leavingScreen,
+      }),
+    ...(open && {
+      transition: (theme) =>
+        theme.transitions.create('margin', {
+          easing: theme.transitions.easing.easeOut,
+          duration: theme.transitions.duration.enteringScreen,
+        }),
+      marginLeft: `${drawerWidth}px`,
+    }),
+  }}
+>
           <Toolbar /> {/* This toolbar is for spacing */}
           <Routes>
             <Route path="/" element={<Home />} />
